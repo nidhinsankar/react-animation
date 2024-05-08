@@ -1,13 +1,11 @@
+import Scroll from "./components/Scroll";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <>
-      <div className="bg-red-400 font-bold text-center">
-        <p>
-          A react template repository with tailwindcss, Typescript scaffolded by
-          vite
-        </p>
-        <h2>Feel free to start building your project</h2>
-      </div>
+      <Home />
+      {/* <Scroll /> */}
     </>
   );
 }
